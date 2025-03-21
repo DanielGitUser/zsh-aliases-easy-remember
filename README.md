@@ -1,10 +1,12 @@
 # zsh-aliases-easy-remember
 
-zsh-aliases easy to remember commands for terminals and servers - If you want to help me make bigger the list, you are welcome, just remember that the commands need to align to an ACTION example is we are going BACK, in the folders we find the command:
+zsh-aliases easy to remember commands for terminals and servers - If you want to help me make bigger the list, you are welcome, just remember that:
 
+1. The commands need to align to an ACTION example is we are going BACK in the folders structure, we find the command:
 ```
 alias back="cd .."
 ```
+2. Name them in camelCase first letter in lowercase
 
 Enter into the area of alias (I call them snips = snippets)
 ```
