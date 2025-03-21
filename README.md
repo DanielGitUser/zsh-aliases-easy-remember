@@ -39,5 +39,5 @@ alias currentDirectory="pwd"
 
 After paste, save the file and exit editor, run this code to reset the terminal
 ```
-# source ~/.zshrc
+source ~/.zshrc
 ```
