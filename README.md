@@ -6,6 +6,8 @@ zsh-aliases easy to remember commands for terminals and servers - If you want to
 ```
 alias back="cd .."
 ```
+// there are expecions called b and cl = back and clean that are to much often used and easy to remember
+
 2. Name them in camelCase first letter in lowercase
 
 Enter into the area of alias (I call them snips = snippets)
@@ -20,6 +22,7 @@ alias resetTerminal="source ~/.zshrc"
 alias create="touch"
 alias createFolder="mkdir"
 alias removeDirectory="rmdir"
+alias enter="cd"
 alias b="cd .."
 alias back="cd .."
 alias home="cd /"
@@ -29,8 +32,6 @@ alias copy="cp"
 alias move="mv"
 alias show="cat"
 alias list="ls -al"
-alias goTo="cd"
-alias enter="cd"
 alias clean="clear"
 alias cl="clear"
 alias currentDirectory="pwd"
