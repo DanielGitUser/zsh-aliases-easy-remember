@@ -36,7 +36,7 @@ alias cl="clear"
 alias currentDirectory="pwd"
 ```
 
-after copy paste run this to reset the server
+after paste, save the file and exit -> to termianl, run this to reset the terminal
 ```
 # source ~/.zshrc
 ```
