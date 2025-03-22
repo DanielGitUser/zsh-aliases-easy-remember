@@ -44,3 +44,13 @@ After paste, save the file and exit editor, run this code to reset the terminal
 ```
 source ~/.zshrc
 ```
+if you want the terminal load the alias everytime you enter you must load the alias this way: run this command
+```
+nano ~/.bash_profile
+```
+inside paste this command
+```
+if [[ -n "$SSH_CONNECTION" ]]; then
+    source ~/.zshrc
+fi
+```
