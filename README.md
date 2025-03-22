@@ -16,17 +16,20 @@ nano ~/.zshrc
 ```
 Copy paste
 ```zsh
+# exceptions
+alias b="cd .."
+alias cl="clear"
+
 alias snips="nano ~/.zshrc"
+alias snippets="nano ~/.zshrc"
 alias resetSnips="source ~/.zshrc"
 alias resetTerminal="source ~/.zshrc"
+alias home="cd /"
+alias enter="cd"
+alias back="cd .."
+alias enterHosts="sudo nano /etc/hosts"
 alias create="touch"
 alias createFolder="mkdir"
-alias removeDirectory="rmdir"
-alias enter="cd"
-alias enterHosts="sudo nano /etc/hosts"
-alias b="cd .."
-alias back="cd .."
-alias home="cd /"
 alias rename="mv"
 alias delete="rm"
 alias remove="rm"
@@ -37,8 +40,8 @@ alias move="mv"
 alias show="cat"
 alias list="ls -al"
 alias clean="clear"
-alias cl="clear"
 alias currentDirectory="pwd"
+alias where="pwd"
 ```
 
 After paste, save the file and exit editor, run this code to reset the terminal
